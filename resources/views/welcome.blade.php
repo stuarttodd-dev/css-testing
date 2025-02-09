@@ -10,6 +10,7 @@
     <meta name="keywords"
           content="Newcastle United, St James' Park, Magpies, Newcastle fan site, Newcastle news, Premier League football, independent Newcastle fans, Newcastle blog, Newcastle latest, Newcastle news, Toon, Army, Saudi, Shearer, "/>
     <link rel="stylesheet" href="{{ asset('bulma.css') }}">
+    <link rel="stylesheet" href="{{ asset('changes.css') }}">
     <style>
         body { font-family: "Smooch Sans", sans-serif !important; }
         h1 { font-family: "Kdam Thmor Pro", sans-serif !important; }
@@ -19,11 +20,12 @@
         h5 { font-family: "Kdam Thmor Pro", sans-serif !important; }
         h6 { font-family: "Kdam Thmor Pro", sans-serif !important; }
         nav { font-family: "Kdam Thmor Pro", sans-serif !important; }
-        :root {--primary: #151614; --tertiary: #165bfb; --secondary: #2bfdaf}
+        /*:root {--primary: #151614; --tertiary: #165bfb; --secondary: #2bfdaf}*/
+        :root {--primary: white; --tertiary: black; --secondary: black; --link_primary: #2bfdaf; --link_secondary: #2bfdaf; }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.compat.css"/>
     <link rel="stylesheet" href="https://unpkg.com/bulma-carousel@4.0.24/dist/css/bulma-carousel.min.css"/>
-    <link rel="stylesheet" href="/styles/generic/social-media.css">
+    <link rel="stylesheet" href="//newcastleunited.ai/styles/generic/social-media.css">
     <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200;300;400;500&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script
@@ -35,19 +37,19 @@
     <link rel="canonical" href="https://www.newcastleunited.ai/"/>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async
-            src="https://www.googletagmanager.com/gtag/js?id=G-8L62WTMJ62"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+{{--    <script async--}}
+{{--            src="https://www.googletagmanager.com/gtag/js?id=G-8L62WTMJ62"></script>--}}
+{{--    <script>--}}
+{{--        window.dataLayer = window.dataLayer || [];--}}
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+{{--        function gtag() {--}}
+{{--            dataLayer.push(arguments);--}}
+{{--        }--}}
 
-        gtag('js', new Date());
+{{--        gtag('js', new Date());--}}
 
-        gtag('config', 'G-8L62WTMJ62');
-    </script>
+{{--        gtag('config', 'G-8L62WTMJ62');--}}
+{{--    </script>--}}
 
     <meta name="generator" content="StartASite"/>
 </head>
@@ -391,10 +393,10 @@
                         <p style="text-align: center;"><img src="//newcastleunited.ai/images/goalgurus.co.uk/images/Goal-Gurus-Logo-White-Outline.png" alt="Goal Gurus Logo White Outline" width="140" height="63" /><br /><br /></p>
                         <ul class="social-media">
                             <li><img src="//newcastleunited.ai/images/kitchenwrapnortheast.co.uk/images/socialmediaicons/Social-Media-Icons-LinkedIn.png" alt="Twitter" width="80" height="80" /></li>
-                            <li><a href="https://www.instagram.com/goalgurus8/"><img src="../images/kitchenwrapnortheast.co.uk/images/socialmediaicons/Social-Media-Icons-Instagram.png" alt="Instagram" width="80" height="80" /></a></li>
-                            <li><a href="https://www.facebook.com/GoalGurusOfficial/"><img src="../images/kitchenwrapnortheast.co.uk/images/socialmediaicons/Social-Media-Icons-Facebook.png" alt="Facebook" width="80" height="80" /></a></li>
+                            <li><a href="https://www.instagram.com/goalgurus8/"><img src="//newcastleunited.ai/images/kitchenwrapnortheast.co.uk/images/socialmediaicons/Social-Media-Icons-Instagram.png" alt="Instagram" width="80" height="80" /></a></li>
+                            <li><a href="https://www.facebook.com/GoalGurusOfficial/"><img src="//newcastleunited.ai/images/kitchenwrapnortheast.co.uk/images/socialmediaicons/Social-Media-Icons-Facebook.png" alt="Facebook" width="80" height="80" /></a></li>
                             <li><img src="//newcastleunited.ai/images/kitchenwrapnortheast.co.uk/images/socialmediaicons/Social-Media-Icons-TikTok.png" alt="TikTok" width="80" height="80" /></li>
-                            <li><a href="https://twitter.com/GoalGurus"><img src="../images/goalgurus.co.uk/images/Social-Media-Icons-X-Twitter.png" alt="Twitter / X" width="80" height="80" /></a></li>
+                            <li><a href="https://twitter.com/GoalGurus"><img src="//newcastleunited.ai/images/goalgurus.co.uk/images/Social-Media-Icons-X-Twitter.png" alt="Twitter / X" width="80" height="80" /></a></li>
                         </ul>                          <p>
                             Copyright &copy; 2025                Website design by                 <a
                                     href="https://www.nrgdigital.co.uk/"

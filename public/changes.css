@@ -1,0 +1,45 @@
+h3, .navbar-item:hover {
+    color: var(--secondary) !important;
+}
+
+.body-1-home, .body-3-home {
+    background-color: var(--primary) !important;
+}
+
+.body-2-home,
+footer > div.container > div {
+    background-color: var(--secondary) !important;
+}
+
+footer {
+    background: var(--secondary) !important;
+}
+
+.body-1-home h2,
+.body-1-home p,
+.body-1-home h3,
+.body-3-home h1,
+.body-3-home h2,
+.body-3-home p,
+.body-3-home h3 {
+    color: var(--secondary) !important;
+}
+
+.body-1-home a,
+.body-3-home a {
+    color: var(--link_secondary) !important;
+}
+
+.body-2-home h1,
+.body-2-home h2,
+.body-2-home p,
+.body-2-home h3,
+footer > div.container > div h1,
+footer > div.container > div p {
+    color: var(--primary) !important;
+}
+
+.body-2-home a,
+footer > div.container > div a {
+    color: var(--link_primary) !important;
+}
